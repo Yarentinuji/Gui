@@ -1,0 +1,4161 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = {
+	ScreenGui = Instance.new("ScreenGui"),
+	Frame = Instance.new("Frame"),
+	Frame_2 = Instance.new("Frame"),
+	Frame_3 = Instance.new("Frame"),
+	Frame_4 = Instance.new("Frame"),
+	Frame_5 = Instance.new("Frame"),
+	Frame_6 = Instance.new("Frame"),
+	Frame_7 = Instance.new("Frame"),
+	Frame_8 = Instance.new("Frame"),
+	Frame_9 = Instance.new("Frame"),
+	Frame_10 = Instance.new("Frame"),
+	Frame_11 = Instance.new("Frame"),
+	Frame_12 = Instance.new("Frame"),
+	Frame_13 = Instance.new("Frame"),
+	Frame_14 = Instance.new("Frame"),
+	Frame_15 = Instance.new("Frame"),
+	Frame_16 = Instance.new("Frame"),
+	Frame_17 = Instance.new("Frame"),
+	Frame_18 = Instance.new("Frame"),
+	Frame_19 = Instance.new("Frame"),
+	Frame_20 = Instance.new("Frame"),
+	Frame_21 = Instance.new("Frame"),
+	Frame_22 = Instance.new("Frame"),
+	Frame_23 = Instance.new("Frame"),
+	Frame_24 = Instance.new("Frame"),
+	Frame_25 = Instance.new("Frame"),
+	Frame_26 = Instance.new("Frame"),
+	Frame_27 = Instance.new("Frame"),
+	Frame_28 = Instance.new("Frame"),
+	Frame_29 = Instance.new("Frame"),
+	Frame_30 = Instance.new("Frame"),
+	Frame_31 = Instance.new("Frame"),
+	Frame_32 = Instance.new("Frame"),
+	Frame_33 = Instance.new("Frame"),
+	Frame_34 = Instance.new("Frame"),
+	Frame_35 = Instance.new("Frame"),
+	Frame_36 = Instance.new("Frame"),
+	Frame_37 = Instance.new("Frame"),
+	Frame_38 = Instance.new("Frame"),
+	Frame_39 = Instance.new("Frame"),
+	Frame_40 = Instance.new("Frame"),
+	Frame_41 = Instance.new("Frame"),
+	Frame_42 = Instance.new("Frame"),
+	Frame_43 = Instance.new("Frame"),
+	Frame_44 = Instance.new("Frame"),
+	Frame_45 = Instance.new("Frame"),
+	Frame_46 = Instance.new("Frame"),
+	Frame_47 = Instance.new("Frame"),
+	Frame_48 = Instance.new("Frame"),
+	Frame_49 = Instance.new("Frame"),
+	Frame_50 = Instance.new("Frame"),
+	Frame_51 = Instance.new("Frame"),
+	Frame_52 = Instance.new("Frame"),
+	Frame_53 = Instance.new("Frame"),
+	Frame_54 = Instance.new("Frame"),
+	Frame_55 = Instance.new("Frame"),
+	Frame_56 = Instance.new("Frame"),
+	Frame_57 = Instance.new("Frame"),
+	Frame_58 = Instance.new("Frame"),
+	Frame_59 = Instance.new("Frame"),
+	Frame_60 = Instance.new("Frame"),
+	Frame_61 = Instance.new("Frame"),
+	Frame_62 = Instance.new("Frame"),
+	Frame_63 = Instance.new("Frame"),
+	Frame_64 = Instance.new("Frame"),
+	Frame_65 = Instance.new("Frame"),
+	Frame_66 = Instance.new("Frame"),
+	Frame_67 = Instance.new("Frame"),
+	Frame_68 = Instance.new("Frame"),
+	Frame_69 = Instance.new("Frame"),
+	Frame_70 = Instance.new("Frame"),
+	Frame_71 = Instance.new("Frame"),
+	Frame_72 = Instance.new("Frame"),
+	Frame_73 = Instance.new("Frame"),
+	Frame_74 = Instance.new("Frame"),
+	Frame_75 = Instance.new("Frame"),
+	Frame_76 = Instance.new("Frame"),
+	Frame_77 = Instance.new("Frame"),
+	Frame_78 = Instance.new("Frame"),
+	Frame_79 = Instance.new("Frame"),
+	Frame_80 = Instance.new("Frame"),
+	Frame_81 = Instance.new("Frame"),
+	Frame_82 = Instance.new("Frame"),
+	Frame_83 = Instance.new("Frame"),
+	Frame_84 = Instance.new("Frame"),
+	Frame_85 = Instance.new("Frame"),
+	Frame_86 = Instance.new("Frame"),
+	Frame_87 = Instance.new("Frame"),
+	Frame_88 = Instance.new("Frame"),
+	Frame_89 = Instance.new("Frame"),
+	Frame_90 = Instance.new("Frame"),
+	Frame_91 = Instance.new("Frame"),
+	Frame_92 = Instance.new("Frame"),
+	Frame_93 = Instance.new("Frame"),
+	Frame_94 = Instance.new("Frame"),
+	Frame_95 = Instance.new("Frame"),
+	Frame_96 = Instance.new("Frame"),
+	Frame_97 = Instance.new("Frame"),
+	Frame_98 = Instance.new("Frame"),
+	Frame_99 = Instance.new("Frame"),
+	Frame_100 = Instance.new("Frame"),
+	Frame_101 = Instance.new("Frame"),
+	Frame_102 = Instance.new("Frame"),
+	Frame_103 = Instance.new("Frame"),
+	Frame_104 = Instance.new("Frame"),
+	Frame_105 = Instance.new("Frame"),
+	Frame_106 = Instance.new("Frame"),
+	Frame_107 = Instance.new("Frame"),
+	Frame_108 = Instance.new("Frame"),
+	Frame_109 = Instance.new("Frame"),
+	Frame_110 = Instance.new("Frame"),
+	Frame_111 = Instance.new("Frame"),
+	Frame_112 = Instance.new("Frame"),
+	Frame_113 = Instance.new("Frame"),
+	Frame_114 = Instance.new("Frame"),
+	Frame_115 = Instance.new("Frame"),
+	Frame_116 = Instance.new("Frame"),
+	Frame_117 = Instance.new("Frame"),
+	Frame_118 = Instance.new("Frame"),
+	Frame_119 = Instance.new("Frame"),
+	Frame_120 = Instance.new("Frame"),
+	Frame_121 = Instance.new("Frame"),
+	Frame_122 = Instance.new("Frame"),
+	Frame_123 = Instance.new("Frame"),
+	Frame_124 = Instance.new("Frame"),
+	Frame_125 = Instance.new("Frame"),
+	Frame_126 = Instance.new("Frame"),
+	Frame_127 = Instance.new("Frame"),
+	Frame_128 = Instance.new("Frame"),
+	Frame_129 = Instance.new("Frame"),
+	Frame_130 = Instance.new("Frame"),
+	Frame_131 = Instance.new("Frame"),
+	Frame_132 = Instance.new("Frame"),
+	Frame_133 = Instance.new("Frame"),
+	Frame_134 = Instance.new("Frame"),
+	Frame_135 = Instance.new("Frame"),
+	Frame_136 = Instance.new("Frame"),
+	Frame_137 = Instance.new("Frame"),
+	Frame_138 = Instance.new("Frame"),
+	Frame_139 = Instance.new("Frame"),
+	Frame_140 = Instance.new("Frame"),
+	Frame_141 = Instance.new("Frame"),
+	Frame_142 = Instance.new("Frame"),
+	Frame_143 = Instance.new("Frame"),
+	Frame_144 = Instance.new("Frame"),
+	Frame_145 = Instance.new("Frame"),
+	Frame_146 = Instance.new("Frame"),
+	Frame_147 = Instance.new("Frame"),
+	Frame_148 = Instance.new("Frame"),
+	Frame_149 = Instance.new("Frame"),
+	Frame_150 = Instance.new("Frame"),
+	Frame_151 = Instance.new("Frame"),
+	Frame_152 = Instance.new("Frame"),
+	Frame_153 = Instance.new("Frame"),
+	Frame_154 = Instance.new("Frame"),
+	Frame_155 = Instance.new("Frame"),
+	Frame_156 = Instance.new("Frame"),
+	Frame_157 = Instance.new("Frame"),
+	Frame_158 = Instance.new("Frame"),
+	Frame_159 = Instance.new("Frame"),
+	Frame_160 = Instance.new("Frame"),
+	Frame_161 = Instance.new("Frame"),
+	Frame_162 = Instance.new("Frame"),
+	Frame_163 = Instance.new("Frame"),
+	Frame_164 = Instance.new("Frame"),
+	Frame_165 = Instance.new("Frame"),
+	Frame_166 = Instance.new("Frame"),
+	Frame_167 = Instance.new("Frame"),
+	Frame_168 = Instance.new("Frame"),
+	Frame_169 = Instance.new("Frame"),
+	Frame_170 = Instance.new("Frame"),
+	Frame_171 = Instance.new("Frame"),
+	Frame_172 = Instance.new("Frame"),
+	Frame_173 = Instance.new("Frame"),
+	Frame_174 = Instance.new("Frame"),
+	Frame_175 = Instance.new("Frame"),
+	Frame_176 = Instance.new("Frame"),
+	Frame_177 = Instance.new("Frame"),
+	Frame_178 = Instance.new("Frame"),
+	Frame_179 = Instance.new("Frame"),
+	Frame_180 = Instance.new("Frame"),
+	Frame_181 = Instance.new("Frame"),
+	Frame_182 = Instance.new("Frame"),
+	Frame_183 = Instance.new("Frame"),
+	Frame_184 = Instance.new("Frame"),
+	Frame_185 = Instance.new("Frame"),
+	Frame_186 = Instance.new("Frame"),
+	Frame_187 = Instance.new("Frame"),
+	Frame_188 = Instance.new("Frame"),
+	Frame_189 = Instance.new("Frame"),
+	Frame_190 = Instance.new("Frame"),
+	Frame_191 = Instance.new("Frame"),
+	Frame_192 = Instance.new("Frame"),
+	Frame_193 = Instance.new("Frame"),
+	Frame_194 = Instance.new("Frame"),
+	Frame_195 = Instance.new("Frame"),
+	Frame_196 = Instance.new("Frame"),
+	Frame_197 = Instance.new("Frame"),
+	Frame_198 = Instance.new("Frame"),
+	Frame_199 = Instance.new("Frame"),
+	Frame_200 = Instance.new("Frame"),
+	Frame_201 = Instance.new("Frame"),
+	Frame_202 = Instance.new("Frame"),
+	Frame_203 = Instance.new("Frame"),
+	Frame_204 = Instance.new("Frame"),
+	Frame_205 = Instance.new("Frame"),
+	Frame_206 = Instance.new("Frame"),
+	Frame_207 = Instance.new("Frame"),
+	Frame_208 = Instance.new("Frame"),
+	Frame_209 = Instance.new("Frame"),
+	Frame_210 = Instance.new("Frame"),
+	Frame_211 = Instance.new("Frame"),
+	Frame_212 = Instance.new("Frame"),
+	Frame_213 = Instance.new("Frame"),
+	Frame_214 = Instance.new("Frame"),
+	Frame_215 = Instance.new("Frame"),
+	Frame_216 = Instance.new("Frame"),
+	Frame_217 = Instance.new("Frame"),
+	Frame_218 = Instance.new("Frame"),
+	Frame_219 = Instance.new("Frame"),
+	Frame_220 = Instance.new("Frame"),
+	Frame_221 = Instance.new("Frame"),
+	Frame_222 = Instance.new("Frame"),
+	Frame_223 = Instance.new("Frame"),
+	Frame_224 = Instance.new("Frame"),
+	Frame_225 = Instance.new("Frame"),
+	Frame_226 = Instance.new("Frame"),
+	Frame_227 = Instance.new("Frame"),
+	Frame_228 = Instance.new("Frame"),
+	Frame_229 = Instance.new("Frame"),
+	Frame_230 = Instance.new("Frame"),
+	Frame_231 = Instance.new("Frame"),
+	Frame_232 = Instance.new("Frame"),
+	Frame_233 = Instance.new("Frame"),
+	Frame_234 = Instance.new("Frame"),
+	Frame_235 = Instance.new("Frame"),
+	Frame_236 = Instance.new("Frame"),
+	Frame_237 = Instance.new("Frame"),
+	Frame_238 = Instance.new("Frame"),
+	Frame_239 = Instance.new("Frame"),
+	Frame_240 = Instance.new("Frame"),
+	Frame_241 = Instance.new("Frame"),
+	Frame_242 = Instance.new("Frame"),
+	Frame_243 = Instance.new("Frame"),
+	Frame_244 = Instance.new("Frame"),
+	Frame_245 = Instance.new("Frame"),
+	Frame_246 = Instance.new("Frame"),
+	Frame_247 = Instance.new("Frame"),
+	Frame_248 = Instance.new("Frame"),
+	Frame_249 = Instance.new("Frame"),
+	Frame_250 = Instance.new("Frame"),
+	Frame_251 = Instance.new("Frame"),
+	Frame_252 = Instance.new("Frame"),
+	Frame_253 = Instance.new("Frame"),
+	Frame_254 = Instance.new("Frame"),
+	Frame_255 = Instance.new("Frame"),
+	Frame_256 = Instance.new("Frame"),
+	Frame_257 = Instance.new("Frame"),
+	Frame_258 = Instance.new("Frame"),
+	Frame_259 = Instance.new("Frame"),
+	Frame_260 = Instance.new("Frame"),
+	Frame_261 = Instance.new("Frame"),
+	Frame_262 = Instance.new("Frame"),
+	Frame_263 = Instance.new("Frame"),
+	Frame_264 = Instance.new("Frame"),
+	Frame_265 = Instance.new("Frame"),
+	Frame_266 = Instance.new("Frame"),
+	Frame_267 = Instance.new("Frame"),
+	Frame_268 = Instance.new("Frame"),
+	Frame_269 = Instance.new("Frame"),
+	Frame_270 = Instance.new("Frame"),
+	Frame_271 = Instance.new("Frame"),
+	Frame_272 = Instance.new("Frame"),
+	Frame_273 = Instance.new("Frame"),
+	Frame_274 = Instance.new("Frame"),
+	Frame_275 = Instance.new("Frame"),
+	Frame_276 = Instance.new("Frame"),
+	Frame_277 = Instance.new("Frame"),
+	Frame_278 = Instance.new("Frame"),
+	Frame_279 = Instance.new("Frame"),
+	Frame_280 = Instance.new("Frame"),
+	Frame_281 = Instance.new("Frame"),
+	Frame_282 = Instance.new("Frame"),
+	Frame_283 = Instance.new("Frame"),
+	Frame_284 = Instance.new("Frame"),
+	Frame_285 = Instance.new("Frame"),
+	Frame_286 = Instance.new("Frame"),
+	Frame_287 = Instance.new("Frame"),
+	Frame_288 = Instance.new("Frame"),
+	Frame_289 = Instance.new("Frame"),
+	Frame_290 = Instance.new("Frame"),
+	Frame_291 = Instance.new("Frame"),
+	Frame_292 = Instance.new("Frame"),
+	Frame_293 = Instance.new("Frame"),
+	Frame_294 = Instance.new("Frame"),
+	Frame_295 = Instance.new("Frame"),
+	Frame_296 = Instance.new("Frame"),
+	Frame_297 = Instance.new("Frame"),
+	Frame_298 = Instance.new("Frame"),
+	Frame_299 = Instance.new("Frame"),
+	Frame_300 = Instance.new("Frame"),
+	Frame_301 = Instance.new("Frame"),
+	Frame_302 = Instance.new("Frame"),
+	Frame_303 = Instance.new("Frame"),
+	Frame_304 = Instance.new("Frame"),
+	Frame_305 = Instance.new("Frame"),
+	Frame_306 = Instance.new("Frame"),
+	Frame_307 = Instance.new("Frame"),
+	Frame_308 = Instance.new("Frame"),
+	Frame_309 = Instance.new("Frame"),
+	Frame_310 = Instance.new("Frame"),
+	Frame_311 = Instance.new("Frame"),
+	Frame_312 = Instance.new("Frame"),
+	Frame_313 = Instance.new("Frame"),
+	Frame_314 = Instance.new("Frame"),
+	Frame_315 = Instance.new("Frame"),
+	Frame_316 = Instance.new("Frame"),
+	Frame_317 = Instance.new("Frame"),
+	Frame_318 = Instance.new("Frame"),
+	Frame_319 = Instance.new("Frame"),
+	Frame_320 = Instance.new("Frame"),
+	Frame_321 = Instance.new("Frame"),
+	Frame_322 = Instance.new("Frame"),
+	Frame_323 = Instance.new("Frame"),
+	Frame_324 = Instance.new("Frame"),
+	Frame_325 = Instance.new("Frame"),
+	Frame_326 = Instance.new("Frame"),
+	Frame_327 = Instance.new("Frame"),
+	Frame_328 = Instance.new("Frame"),
+	Frame_329 = Instance.new("Frame"),
+	Frame_330 = Instance.new("Frame"),
+	Frame_331 = Instance.new("Frame"),
+	Frame_332 = Instance.new("Frame"),
+	Frame_333 = Instance.new("Frame"),
+	Frame_334 = Instance.new("Frame"),
+	Frame_335 = Instance.new("Frame"),
+	Frame_336 = Instance.new("Frame"),
+	Frame_337 = Instance.new("Frame"),
+	Frame_338 = Instance.new("Frame"),
+	Frame_339 = Instance.new("Frame"),
+	Frame_340 = Instance.new("Frame"),
+	Frame_341 = Instance.new("Frame"),
+	Frame_342 = Instance.new("Frame"),
+	Frame_343 = Instance.new("Frame"),
+	Frame_344 = Instance.new("Frame"),
+	Frame_345 = Instance.new("Frame"),
+	Frame_346 = Instance.new("Frame"),
+	Frame_347 = Instance.new("Frame"),
+	Frame_348 = Instance.new("Frame"),
+	Frame_349 = Instance.new("Frame"),
+	Frame_350 = Instance.new("Frame"),
+	Frame_351 = Instance.new("Frame"),
+	Frame_352 = Instance.new("Frame"),
+	Frame_353 = Instance.new("Frame"),
+	Frame_354 = Instance.new("Frame"),
+	Frame_355 = Instance.new("Frame"),
+	Frame_356 = Instance.new("Frame"),
+	Frame_357 = Instance.new("Frame"),
+	Frame_358 = Instance.new("Frame"),
+	Frame_359 = Instance.new("Frame"),
+	Frame_360 = Instance.new("Frame"),
+	Frame_361 = Instance.new("Frame"),
+	Frame_362 = Instance.new("Frame"),
+	Frame_363 = Instance.new("Frame"),
+	Frame_364 = Instance.new("Frame"),
+	Frame_365 = Instance.new("Frame"),
+	Frame_366 = Instance.new("Frame"),
+	Frame_367 = Instance.new("Frame"),
+	Frame_368 = Instance.new("Frame"),
+	Frame_369 = Instance.new("Frame"),
+	Frame_370 = Instance.new("Frame"),
+	Frame_371 = Instance.new("Frame"),
+	Frame_372 = Instance.new("Frame"),
+	Frame_373 = Instance.new("Frame"),
+	Frame_374 = Instance.new("Frame"),
+	Frame_375 = Instance.new("Frame"),
+	Frame_376 = Instance.new("Frame"),
+	Frame_377 = Instance.new("Frame"),
+	Frame_378 = Instance.new("Frame"),
+	Frame_379 = Instance.new("Frame"),
+	Frame_380 = Instance.new("Frame"),
+	Frame_381 = Instance.new("Frame"),
+	Frame_382 = Instance.new("Frame"),
+	Frame_383 = Instance.new("Frame"),
+	Frame_384 = Instance.new("Frame"),
+	Frame_385 = Instance.new("Frame"),
+	Frame_386 = Instance.new("Frame"),
+	Frame_387 = Instance.new("Frame"),
+	Frame_388 = Instance.new("Frame"),
+	Frame_389 = Instance.new("Frame"),
+	Frame_390 = Instance.new("Frame"),
+	Frame_391 = Instance.new("Frame"),
+	Frame_392 = Instance.new("Frame"),
+	Frame_393 = Instance.new("Frame"),
+	Frame_394 = Instance.new("Frame"),
+	Frame_395 = Instance.new("Frame"),
+	Frame_396 = Instance.new("Frame"),
+	Frame_397 = Instance.new("Frame"),
+	Frame_398 = Instance.new("Frame"),
+	Frame_399 = Instance.new("Frame"),
+	Frame_400 = Instance.new("Frame"),
+	Frame_401 = Instance.new("Frame"),
+	Frame_402 = Instance.new("Frame"),
+	Frame_403 = Instance.new("Frame"),
+	Frame_404 = Instance.new("Frame"),
+	Frame_405 = Instance.new("Frame"),
+	Frame_406 = Instance.new("Frame"),
+	Frame_407 = Instance.new("Frame"),
+	Frame_408 = Instance.new("Frame"),
+	Frame_409 = Instance.new("Frame"),
+	Frame_410 = Instance.new("Frame"),
+	Frame_411 = Instance.new("Frame"),
+	Frame_412 = Instance.new("Frame"),
+	Frame_413 = Instance.new("Frame"),
+	Frame_414 = Instance.new("Frame"),
+	Frame_415 = Instance.new("Frame"),
+	Frame_416 = Instance.new("Frame"),
+	Frame_417 = Instance.new("Frame"),
+	Frame_418 = Instance.new("Frame"),
+	Frame_419 = Instance.new("Frame"),
+	Frame_420 = Instance.new("Frame"),
+	Frame_421 = Instance.new("Frame"),
+	Frame_422 = Instance.new("Frame"),
+	Frame_423 = Instance.new("Frame"),
+	Frame_424 = Instance.new("Frame"),
+	Frame_425 = Instance.new("Frame"),
+	Frame_426 = Instance.new("Frame"),
+	Frame_427 = Instance.new("Frame"),
+	Frame_428 = Instance.new("Frame"),
+	Frame_429 = Instance.new("Frame"),
+	Frame_430 = Instance.new("Frame"),
+	Frame_431 = Instance.new("Frame"),
+	Frame_432 = Instance.new("Frame"),
+	Frame_433 = Instance.new("Frame"),
+	Frame_434 = Instance.new("Frame"),
+	Frame_435 = Instance.new("Frame"),
+	Frame_436 = Instance.new("Frame"),
+	Frame_437 = Instance.new("Frame"),
+	Frame_438 = Instance.new("Frame"),
+	Frame_439 = Instance.new("Frame"),
+	Frame_440 = Instance.new("Frame"),
+	Frame_441 = Instance.new("Frame"),
+	Frame_442 = Instance.new("Frame"),
+	Frame_443 = Instance.new("Frame"),
+	Frame_444 = Instance.new("Frame"),
+	Frame_445 = Instance.new("Frame"),
+	Frame_446 = Instance.new("Frame"),
+	Frame_447 = Instance.new("Frame"),
+	Frame_448 = Instance.new("Frame"),
+	Frame_449 = Instance.new("Frame"),
+	Frame_450 = Instance.new("Frame"),
+	Frame_451 = Instance.new("Frame"),
+	Frame_452 = Instance.new("Frame"),
+	Frame_453 = Instance.new("Frame"),
+	Frame_454 = Instance.new("Frame"),
+	Frame_455 = Instance.new("Frame"),
+	Frame_456 = Instance.new("Frame"),
+	Frame_457 = Instance.new("Frame"),
+	Frame_458 = Instance.new("Frame"),
+	Frame_459 = Instance.new("Frame"),
+	Frame_460 = Instance.new("Frame"),
+	Frame_461 = Instance.new("Frame"),
+	Frame_462 = Instance.new("Frame"),
+	Frame_463 = Instance.new("Frame"),
+	Frame_464 = Instance.new("Frame"),
+	Frame_465 = Instance.new("Frame"),
+	Frame_466 = Instance.new("Frame"),
+	Frame_467 = Instance.new("Frame"),
+	Frame_468 = Instance.new("Frame"),
+	Frame_469 = Instance.new("Frame"),
+	Frame_470 = Instance.new("Frame"),
+	Frame_471 = Instance.new("Frame"),
+	Frame_472 = Instance.new("Frame"),
+	Frame_473 = Instance.new("Frame"),
+	Frame_474 = Instance.new("Frame"),
+	Frame_475 = Instance.new("Frame"),
+	Frame_476 = Instance.new("Frame"),
+	Frame_477 = Instance.new("Frame"),
+	Frame_478 = Instance.new("Frame"),
+	Frame_479 = Instance.new("Frame"),
+	Frame_480 = Instance.new("Frame"),
+	Frame_481 = Instance.new("Frame"),
+	Frame_482 = Instance.new("Frame"),
+	Frame_483 = Instance.new("Frame"),
+	Frame_484 = Instance.new("Frame"),
+	Frame_485 = Instance.new("Frame"),
+	Frame_486 = Instance.new("Frame"),
+	Frame_487 = Instance.new("Frame"),
+	Frame_488 = Instance.new("Frame"),
+	Frame_489 = Instance.new("Frame"),
+	Frame_490 = Instance.new("Frame"),
+	Frame_491 = Instance.new("Frame"),
+	Frame_492 = Instance.new("Frame"),
+	Frame_493 = Instance.new("Frame"),
+	Frame_494 = Instance.new("Frame"),
+	Frame_495 = Instance.new("Frame"),
+	Frame_496 = Instance.new("Frame"),
+	Frame_497 = Instance.new("Frame"),
+	Frame_498 = Instance.new("Frame"),
+	Frame_499 = Instance.new("Frame"),
+	Frame_500 = Instance.new("Frame"),
+	Frame_501 = Instance.new("Frame"),
+	Frame_502 = Instance.new("Frame"),
+	Frame_503 = Instance.new("Frame"),
+	Frame_504 = Instance.new("Frame"),
+	Frame_505 = Instance.new("Frame"),
+	Frame_506 = Instance.new("Frame"),
+	Frame_507 = Instance.new("Frame"),
+	Frame_508 = Instance.new("Frame"),
+	Frame_509 = Instance.new("Frame"),
+	Frame_510 = Instance.new("Frame"),
+	Frame_511 = Instance.new("Frame"),
+	Frame_512 = Instance.new("Frame"),
+	Frame_513 = Instance.new("Frame"),
+	Frame_514 = Instance.new("Frame"),
+	Frame_515 = Instance.new("Frame"),
+	Frame_516 = Instance.new("Frame"),
+	Frame_517 = Instance.new("Frame"),
+	Frame_518 = Instance.new("Frame"),
+	Frame_519 = Instance.new("Frame"),
+	Frame_520 = Instance.new("Frame"),
+	Frame_521 = Instance.new("Frame"),
+	Frame_522 = Instance.new("Frame"),
+	Frame_523 = Instance.new("Frame"),
+	Frame_524 = Instance.new("Frame"),
+	Frame_525 = Instance.new("Frame"),
+	Frame_526 = Instance.new("Frame"),
+	Frame_527 = Instance.new("Frame"),
+	Frame_528 = Instance.new("Frame"),
+	Frame_529 = Instance.new("Frame"),
+	Frame_530 = Instance.new("Frame"),
+	Frame_531 = Instance.new("Frame"),
+	Frame_532 = Instance.new("Frame"),
+	Frame_533 = Instance.new("Frame"),
+	Frame_534 = Instance.new("Frame"),
+	Frame_535 = Instance.new("Frame"),
+	Frame_536 = Instance.new("Frame"),
+	Frame_537 = Instance.new("Frame"),
+	Frame_538 = Instance.new("Frame"),
+	Frame_539 = Instance.new("Frame"),
+	Frame_540 = Instance.new("Frame"),
+	Frame_541 = Instance.new("Frame"),
+	Frame_542 = Instance.new("Frame"),
+	Frame_543 = Instance.new("Frame"),
+	Frame_544 = Instance.new("Frame"),
+	Frame_545 = Instance.new("Frame"),
+	Frame_546 = Instance.new("Frame"),
+	Frame_547 = Instance.new("Frame"),
+	Frame_548 = Instance.new("Frame"),
+	Frame_549 = Instance.new("Frame"),
+	Frame_550 = Instance.new("Frame"),
+	Frame_551 = Instance.new("Frame"),
+	Frame_552 = Instance.new("Frame"),
+	Frame_553 = Instance.new("Frame"),
+	Frame_554 = Instance.new("Frame"),
+	Frame_555 = Instance.new("Frame"),
+	Frame_556 = Instance.new("Frame"),
+	Frame_557 = Instance.new("Frame"),
+	Frame_558 = Instance.new("Frame"),
+	Frame_559 = Instance.new("Frame"),
+	Frame_560 = Instance.new("Frame"),
+	Frame_561 = Instance.new("Frame"),
+	Frame_562 = Instance.new("Frame"),
+	Frame_563 = Instance.new("Frame"),
+	Frame_564 = Instance.new("Frame"),
+	Frame_565 = Instance.new("Frame"),
+	Frame_566 = Instance.new("Frame"),
+	Frame_567 = Instance.new("Frame"),
+	Frame_568 = Instance.new("Frame"),
+	Frame_569 = Instance.new("Frame"),
+	Frame_570 = Instance.new("Frame"),
+	Frame_571 = Instance.new("Frame"),
+	Frame_572 = Instance.new("Frame"),
+	Frame_573 = Instance.new("Frame"),
+	Frame_574 = Instance.new("Frame"),
+	Frame_575 = Instance.new("Frame"),
+	Frame_576 = Instance.new("Frame"),
+	Frame_577 = Instance.new("Frame"),
+	Frame_578 = Instance.new("Frame"),
+	Frame_579 = Instance.new("Frame"),
+	Frame_580 = Instance.new("Frame"),
+	Frame_581 = Instance.new("Frame"),
+	Frame_582 = Instance.new("Frame"),
+	Frame_583 = Instance.new("Frame"),
+	Frame_584 = Instance.new("Frame"),
+	Frame_585 = Instance.new("Frame"),
+	Frame_586 = Instance.new("Frame"),
+	Frame_587 = Instance.new("Frame"),
+	Frame_588 = Instance.new("Frame"),
+	Frame_589 = Instance.new("Frame"),
+	Frame_590 = Instance.new("Frame"),
+	Frame_591 = Instance.new("Frame"),
+	Frame_592 = Instance.new("Frame"),
+	Frame_593 = Instance.new("Frame"),
+	Frame_594 = Instance.new("Frame"),
+	Frame_595 = Instance.new("Frame"),
+	Frame_596 = Instance.new("Frame"),
+	Frame_597 = Instance.new("Frame"),
+	Frame_598 = Instance.new("Frame"),
+	Frame_599 = Instance.new("Frame"),
+	Frame_600 = Instance.new("Frame"),
+	Frame_601 = Instance.new("Frame"),
+	Frame_602 = Instance.new("Frame"),
+	Frame_603 = Instance.new("Frame"),
+	Frame_604 = Instance.new("Frame"),
+	Frame_605 = Instance.new("Frame"),
+	Frame_606 = Instance.new("Frame"),
+	Frame_607 = Instance.new("Frame"),
+	Frame_608 = Instance.new("Frame"),
+	Frame_609 = Instance.new("Frame"),
+	Frame_610 = Instance.new("Frame"),
+	Frame_611 = Instance.new("Frame"),
+	Frame_612 = Instance.new("Frame"),
+	Frame_613 = Instance.new("Frame"),
+	Frame_614 = Instance.new("Frame"),
+	Frame_615 = Instance.new("Frame"),
+	Frame_616 = Instance.new("Frame"),
+	Frame_617 = Instance.new("Frame"),
+	Frame_618 = Instance.new("Frame"),
+	Frame_619 = Instance.new("Frame"),
+	Frame_620 = Instance.new("Frame"),
+	Frame_621 = Instance.new("Frame"),
+	Frame_622 = Instance.new("Frame"),
+	Frame_623 = Instance.new("Frame"),
+	Frame_624 = Instance.new("Frame"),
+	Frame_625 = Instance.new("Frame"),
+	Frame_626 = Instance.new("Frame"),
+	Frame_627 = Instance.new("Frame"),
+	Frame_628 = Instance.new("Frame"),
+	Frame_629 = Instance.new("Frame"),
+	Frame_630 = Instance.new("Frame"),
+	Frame_631 = Instance.new("Frame"),
+	Frame_632 = Instance.new("Frame"),
+	Frame_633 = Instance.new("Frame"),
+	Frame_634 = Instance.new("Frame"),
+	Frame_635 = Instance.new("Frame"),
+	Frame_636 = Instance.new("Frame"),
+	Frame_637 = Instance.new("Frame"),
+	Frame_638 = Instance.new("Frame"),
+	Frame_639 = Instance.new("Frame"),
+	Frame_640 = Instance.new("Frame"),
+	Frame_641 = Instance.new("Frame"),
+	Frame_642 = Instance.new("Frame"),
+	Frame_643 = Instance.new("Frame"),
+	Frame_644 = Instance.new("Frame"),
+	Frame_645 = Instance.new("Frame"),
+	Frame_646 = Instance.new("Frame"),
+	Frame_647 = Instance.new("Frame"),
+	Frame_648 = Instance.new("Frame"),
+	Frame_649 = Instance.new("Frame"),
+	Frame_650 = Instance.new("Frame"),
+	Frame_651 = Instance.new("Frame"),
+	Frame_652 = Instance.new("Frame"),
+	Frame_653 = Instance.new("Frame"),
+	Frame_654 = Instance.new("Frame"),
+	Frame_655 = Instance.new("Frame"),
+	Frame_656 = Instance.new("Frame"),
+	Frame_657 = Instance.new("Frame"),
+	Frame_658 = Instance.new("Frame"),
+	Frame_659 = Instance.new("Frame"),
+	Frame_660 = Instance.new("Frame"),
+	Frame_661 = Instance.new("Frame"),
+	Frame_662 = Instance.new("Frame"),
+	Frame_663 = Instance.new("Frame"),
+	Frame_664 = Instance.new("Frame"),
+	Frame_665 = Instance.new("Frame"),
+	Frame_666 = Instance.new("Frame"),
+	Frame_667 = Instance.new("Frame"),
+	Frame_668 = Instance.new("Frame"),
+	Frame_669 = Instance.new("Frame"),
+	Frame_670 = Instance.new("Frame"),
+	Frame_671 = Instance.new("Frame"),
+	Frame_672 = Instance.new("Frame"),
+	Frame_673 = Instance.new("Frame"),
+	Frame_674 = Instance.new("Frame"),
+	Frame_675 = Instance.new("Frame"),
+	Frame_676 = Instance.new("Frame"),
+	Frame_677 = Instance.new("Frame"),
+	Frame_678 = Instance.new("Frame"),
+	Frame_679 = Instance.new("Frame"),
+	Frame_680 = Instance.new("Frame"),
+	Frame_681 = Instance.new("Frame"),
+	Frame_682 = Instance.new("Frame"),
+	Frame_683 = Instance.new("Frame"),
+	Frame_684 = Instance.new("Frame"),
+	Frame_685 = Instance.new("Frame"),
+	Frame_686 = Instance.new("Frame"),
+	Frame_687 = Instance.new("Frame"),
+	Frame_688 = Instance.new("Frame"),
+	Frame_689 = Instance.new("Frame"),
+	Frame_690 = Instance.new("Frame"),
+	Frame_691 = Instance.new("Frame"),
+	Frame_692 = Instance.new("Frame"),
+	Frame_693 = Instance.new("Frame"),
+	Frame_694 = Instance.new("Frame"),
+	Frame_695 = Instance.new("Frame"),
+	Frame_696 = Instance.new("Frame"),
+	Frame_697 = Instance.new("Frame"),
+	Frame_698 = Instance.new("Frame"),
+	Frame_699 = Instance.new("Frame"),
+	Frame_700 = Instance.new("Frame"),
+	Frame_701 = Instance.new("Frame"),
+	Frame_702 = Instance.new("Frame"),
+	Frame_703 = Instance.new("Frame"),
+	Frame_704 = Instance.new("Frame"),
+	Frame_705 = Instance.new("Frame"),
+	Frame_706 = Instance.new("Frame"),
+	Frame_707 = Instance.new("Frame"),
+	Frame_708 = Instance.new("Frame"),
+	Frame_709 = Instance.new("Frame"),
+	Frame_710 = Instance.new("Frame"),
+	Frame_711 = Instance.new("Frame"),
+	Frame_712 = Instance.new("Frame"),
+	Frame_713 = Instance.new("Frame"),
+	Frame_714 = Instance.new("Frame"),
+	Frame_715 = Instance.new("Frame"),
+	Frame_716 = Instance.new("Frame"),
+	Frame_717 = Instance.new("Frame"),
+	Frame_718 = Instance.new("Frame"),
+	Frame_719 = Instance.new("Frame"),
+	Frame_720 = Instance.new("Frame"),
+	Frame_721 = Instance.new("Frame"),
+	Frame_722 = Instance.new("Frame"),
+	Frame_723 = Instance.new("Frame"),
+	Frame_724 = Instance.new("Frame"),
+	Frame_725 = Instance.new("Frame"),
+	Frame_726 = Instance.new("Frame"),
+	Frame_727 = Instance.new("Frame"),
+	Frame_728 = Instance.new("Frame"),
+	Frame_729 = Instance.new("Frame"),
+	Frame_730 = Instance.new("Frame"),
+	Frame_731 = Instance.new("Frame"),
+	Frame_732 = Instance.new("Frame"),
+	Frame_733 = Instance.new("Frame"),
+	Frame_734 = Instance.new("Frame"),
+	Frame_735 = Instance.new("Frame"),
+	Frame_736 = Instance.new("Frame"),
+	Frame_737 = Instance.new("Frame"),
+	Frame_738 = Instance.new("Frame"),
+	Frame_739 = Instance.new("Frame"),
+	Frame_740 = Instance.new("Frame"),
+	Frame_741 = Instance.new("Frame"),
+	Frame_742 = Instance.new("Frame"),
+	Frame_743 = Instance.new("Frame"),
+	Frame_744 = Instance.new("Frame"),
+	Frame_745 = Instance.new("Frame"),
+	Frame_746 = Instance.new("Frame"),
+	Frame_747 = Instance.new("Frame"),
+	Frame_748 = Instance.new("Frame"),
+	Frame_749 = Instance.new("Frame"),
+	Frame_750 = Instance.new("Frame"),
+	Frame_751 = Instance.new("Frame"),
+	Frame_752 = Instance.new("Frame"),
+	Frame_753 = Instance.new("Frame"),
+	Frame_754 = Instance.new("Frame"),
+	Frame_755 = Instance.new("Frame"),
+	Frame_756 = Instance.new("Frame"),
+	Frame_757 = Instance.new("Frame"),
+	Frame_758 = Instance.new("Frame"),
+	Frame_759 = Instance.new("Frame"),
+	Frame_760 = Instance.new("Frame"),
+	Frame_761 = Instance.new("Frame"),
+	Frame_762 = Instance.new("Frame"),
+	Frame_763 = Instance.new("Frame"),
+	Frame_764 = Instance.new("Frame"),
+	Frame_765 = Instance.new("Frame"),
+	Frame_766 = Instance.new("Frame"),
+	Frame_767 = Instance.new("Frame"),
+	Frame_768 = Instance.new("Frame"),
+	Frame_769 = Instance.new("Frame"),
+	Frame_770 = Instance.new("Frame"),
+	Frame_771 = Instance.new("Frame"),
+	Frame_772 = Instance.new("Frame"),
+	Frame_773 = Instance.new("Frame"),
+	Frame_774 = Instance.new("Frame"),
+	Frame_775 = Instance.new("Frame"),
+	Frame_776 = Instance.new("Frame"),
+	Frame_777 = Instance.new("Frame"),
+	Frame_778 = Instance.new("Frame"),
+	Frame_779 = Instance.new("Frame"),
+	Frame_780 = Instance.new("Frame"),
+	Frame_781 = Instance.new("Frame"),
+	Frame_782 = Instance.new("Frame"),
+	Frame_783 = Instance.new("Frame"),
+	Frame_784 = Instance.new("Frame"),
+	Frame_785 = Instance.new("Frame"),
+	Frame_786 = Instance.new("Frame"),
+	Frame_787 = Instance.new("Frame"),
+	Frame_788 = Instance.new("Frame"),
+	Frame_789 = Instance.new("Frame"),
+	Frame_790 = Instance.new("Frame"),
+	Frame_791 = Instance.new("Frame"),
+	Frame_792 = Instance.new("Frame"),
+	Frame_793 = Instance.new("Frame"),
+	Frame_794 = Instance.new("Frame"),
+	Frame_795 = Instance.new("Frame"),
+	Frame_796 = Instance.new("Frame"),
+	Frame_797 = Instance.new("Frame"),
+	Frame_798 = Instance.new("Frame"),
+	Frame_799 = Instance.new("Frame"),
+	Frame_800 = Instance.new("Frame"),
+	Frame_801 = Instance.new("Frame"),
+	Frame_802 = Instance.new("Frame"),
+	Frame_803 = Instance.new("Frame"),
+	Frame_804 = Instance.new("Frame"),
+	Frame_805 = Instance.new("Frame"),
+	Frame_806 = Instance.new("Frame"),
+	Frame_807 = Instance.new("Frame"),
+	Frame_808 = Instance.new("Frame"),
+	Frame_809 = Instance.new("Frame"),
+	Frame_810 = Instance.new("Frame"),
+	Frame_811 = Instance.new("Frame"),
+	Frame_812 = Instance.new("Frame"),
+	Frame_813 = Instance.new("Frame"),
+	Frame_814 = Instance.new("Frame"),
+	Frame_815 = Instance.new("Frame"),
+	Frame_816 = Instance.new("Frame"),
+	Frame_817 = Instance.new("Frame"),
+	Frame_818 = Instance.new("Frame"),
+	ImageLabel = Instance.new("ImageLabel"),
+}
+
+--Properties:
+
+ScreenGui.ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ScreenGui.Frame.Parent = ScreenGui.ScreenGui
+ScreenGui.Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_2.Parent = ScreenGui.Frame
+ScreenGui.Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_2.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_3.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_3.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_4.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_4.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_5.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_5.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_6.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_6.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_7.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_7.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_8.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_8.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_9.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_9.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_10.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_10.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_11.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_11.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_12.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_12.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_13.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_13.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_14.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_14.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_15.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_15.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_16.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_16.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_17.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_17.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_18.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_18.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_19.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_19.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_20.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_20.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_21.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_21.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_22.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_22.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_23.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_23.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_24.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_24.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_25.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_25.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_26.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_26.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_27.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_27.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_28.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_28.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_29.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_29.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_30.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_30.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_31.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_31.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_32.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_32.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_32.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_33.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_33.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_33.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_34.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_34.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_34.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_35.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_35.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_35.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_36.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_36.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_36.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_37.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_37.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_37.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_38.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_38.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_38.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_39.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_39.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_39.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_40.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_40.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_40.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_41.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_41.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_41.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_42.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_42.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_42.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_43.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_43.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_43.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_44.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_44.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_44.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_45.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_45.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_45.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_46.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_46.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_46.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_47.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_47.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_47.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_48.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_48.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_48.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_49.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_49.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_49.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_50.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_50.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_50.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_51.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_51.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_51.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_52.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_52.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_52.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_53.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_53.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_53.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_54.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_54.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_54.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_55.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_55.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_55.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_56.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_56.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_56.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_57.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_57.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_57.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_58.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_58.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_58.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_59.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_59.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_59.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_60.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_60.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_60.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_61.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_61.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_61.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_62.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_62.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_62.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_63.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_63.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_63.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_64.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_64.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_64.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_65.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_65.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_65.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_66.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_66.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_66.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_67.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_67.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_67.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_68.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_68.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_68.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_69.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_69.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_69.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_70.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_70.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_70.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_71.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_71.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_71.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_72.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_72.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_72.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_73.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_73.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_73.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_74.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_74.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_74.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_75.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_75.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_75.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_76.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_76.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_76.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_77.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_77.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_77.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_78.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_78.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_78.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_79.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_79.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_79.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_80.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_80.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_80.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_81.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_81.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_81.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_82.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_82.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_82.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_83.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_83.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_83.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_84.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_84.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_84.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_85.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_85.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_85.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_86.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_86.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_86.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_87.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_87.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_87.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_88.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_88.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_88.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_89.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_89.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_89.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_90.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_90.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_90.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_91.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_91.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_91.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_92.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_92.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_92.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_93.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_93.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_93.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_94.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_94.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_94.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_95.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_95.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_95.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_96.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_96.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_96.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_97.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_97.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_97.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_98.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_98.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_98.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_99.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_99.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_99.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_100.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_100.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_100.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_101.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_101.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_101.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_102.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_102.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_102.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_103.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_103.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_103.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_104.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_104.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_104.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_105.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_105.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_105.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_106.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_106.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_106.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_107.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_107.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_107.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_108.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_108.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_108.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_109.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_109.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_109.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_110.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_110.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_110.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_111.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_111.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_111.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_112.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_112.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_112.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_113.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_113.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_113.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_114.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_114.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_114.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_115.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_115.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_115.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_116.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_116.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_116.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_117.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_117.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_117.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_118.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_118.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_118.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_119.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_119.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_119.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_120.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_120.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_120.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_121.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_121.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_121.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_122.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_122.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_122.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_123.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_123.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_123.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_124.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_124.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_124.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_125.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_125.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_125.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_126.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_126.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_126.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_127.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_127.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_127.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_128.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_128.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_128.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_129.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_129.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_129.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_130.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_130.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_130.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_131.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_131.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_131.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_132.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_132.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_132.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_133.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_133.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_133.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_134.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_134.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_134.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_135.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_135.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_135.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_136.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_136.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_136.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_137.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_137.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_137.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_138.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_138.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_138.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_139.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_139.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_139.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_140.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_140.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_140.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_141.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_141.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_141.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_142.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_142.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_142.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_143.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_143.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_143.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_144.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_144.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_144.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_145.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_145.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_145.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_146.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_146.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_146.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_147.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_147.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_147.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_148.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_148.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_148.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_149.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_149.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_149.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_150.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_150.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_150.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_151.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_151.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_151.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_152.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_152.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_152.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_153.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_153.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_153.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_154.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_154.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_154.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_155.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_155.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_155.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_156.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_156.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_156.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_157.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_157.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_157.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_158.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_158.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_158.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_159.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_159.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_159.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_160.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_160.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_160.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_161.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_161.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_161.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_162.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_162.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_162.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_163.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_163.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_163.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_164.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_164.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_164.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_165.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_165.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_165.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_166.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_166.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_166.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_167.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_167.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_167.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_168.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_168.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_168.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_169.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_169.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_169.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_170.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_170.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_170.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_171.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_171.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_171.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_172.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_172.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_172.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_173.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_173.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_173.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_174.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_174.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_174.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_175.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_175.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_175.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_176.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_176.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_176.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_177.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_177.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_177.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_178.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_178.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_178.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_179.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_179.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_179.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_180.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_180.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_180.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_181.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_181.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_181.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_182.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_182.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_182.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_183.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_183.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_183.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_184.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_184.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_184.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_185.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_185.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_185.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_186.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_186.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_186.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_187.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_187.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_187.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_188.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_188.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_188.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_189.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_189.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_189.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_190.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_190.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_190.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_191.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_191.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_191.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_192.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_192.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_192.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_193.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_193.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_193.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_194.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_194.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_194.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_195.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_195.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_195.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_196.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_196.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_196.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_197.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_197.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_197.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_198.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_198.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_198.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_199.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_199.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_199.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_200.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_200.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_200.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_201.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_201.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_201.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_202.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_202.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_202.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_203.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_203.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_203.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_204.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_204.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_204.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_205.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_205.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_205.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_206.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_206.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_206.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_207.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_207.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_207.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_208.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_208.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_208.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_209.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_209.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_209.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_210.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_210.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_210.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_211.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_211.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_211.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_212.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_212.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_212.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_213.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_213.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_213.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_214.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_214.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_214.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_215.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_215.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_215.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_216.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_216.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_216.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_217.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_217.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_217.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_218.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_218.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_218.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_219.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_219.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_219.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_220.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_220.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_220.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_221.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_221.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_221.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_222.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_222.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_222.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_223.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_223.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_223.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_224.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_224.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_224.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_225.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_225.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_225.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_226.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_226.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_226.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_227.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_227.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_227.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_228.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_228.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_228.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_229.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_229.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_229.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_230.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_230.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_230.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_231.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_231.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_231.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_232.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_232.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_232.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_233.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_233.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_233.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_234.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_234.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_234.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_235.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_235.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_235.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_236.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_236.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_236.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_237.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_237.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_237.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_238.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_238.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_238.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_239.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_239.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_239.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_240.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_240.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_240.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_241.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_241.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_241.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_242.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_242.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_242.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_243.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_243.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_243.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_244.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_244.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_244.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_245.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_245.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_245.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_246.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_246.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_246.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_247.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_247.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_247.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_248.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_248.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_248.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_249.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_249.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_249.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_250.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_250.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_250.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_251.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_251.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_251.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_252.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_252.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_252.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_253.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_253.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_253.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_254.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_254.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_254.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_255.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_255.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_255.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_256.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_256.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_256.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_257.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_257.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_257.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_258.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_258.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_258.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_259.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_259.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_259.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_260.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_260.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_260.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_261.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_261.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_261.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_262.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_262.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_262.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_263.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_263.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_263.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_264.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_264.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_264.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_265.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_265.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_265.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_266.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_266.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_266.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_267.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_267.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_267.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_268.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_268.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_268.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_269.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_269.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_269.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_270.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_270.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_270.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_271.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_271.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_271.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_272.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_272.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_272.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_273.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_273.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_273.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_274.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_274.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_274.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_275.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_275.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_275.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_276.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_276.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_276.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_277.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_277.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_277.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_278.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_278.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_278.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_279.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_279.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_279.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_280.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_280.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_280.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_281.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_281.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_281.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_282.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_282.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_282.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_283.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_283.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_283.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_284.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_284.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_284.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_285.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_285.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_285.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_286.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_286.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_286.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_287.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_287.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_287.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_288.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_288.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_288.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_289.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_289.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_289.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_290.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_290.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_290.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_291.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_291.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_291.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_292.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_292.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_292.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_293.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_293.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_293.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_294.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_294.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_294.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_295.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_295.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_295.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_296.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_296.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_296.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_297.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_297.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_297.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_298.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_298.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_298.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_299.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_299.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_299.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_300.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_300.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_300.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_301.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_301.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_301.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_302.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_302.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_302.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_303.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_303.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_303.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_304.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_304.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_304.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_305.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_305.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_305.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_306.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_306.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_306.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_307.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_307.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_307.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_308.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_308.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_308.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_309.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_309.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_309.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_310.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_310.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_310.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_311.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_311.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_311.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_312.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_312.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_312.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_313.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_313.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_313.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_314.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_314.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_314.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_315.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_315.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_315.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_316.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_316.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_316.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_317.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_317.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_317.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_318.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_318.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_318.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_319.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_319.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_319.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_320.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_320.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_320.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_321.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_321.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_321.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_322.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_322.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_322.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_323.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_323.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_323.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_324.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_324.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_324.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_325.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_325.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_325.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_326.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_326.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_326.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_327.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_327.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_327.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_328.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_328.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_328.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_329.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_329.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_329.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_330.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_330.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_330.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_331.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_331.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_331.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_332.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_332.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_332.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_333.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_333.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_333.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_334.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_334.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_334.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_335.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_335.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_335.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_336.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_336.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_336.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_337.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_337.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_337.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_338.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_338.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_338.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_339.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_339.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_339.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_340.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_340.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_340.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_341.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_341.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_341.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_342.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_342.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_342.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_343.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_343.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_343.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_344.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_344.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_344.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_345.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_345.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_345.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_346.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_346.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_346.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_347.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_347.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_347.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_348.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_348.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_348.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_349.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_349.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_349.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_350.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_350.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_350.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_351.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_351.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_351.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_352.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_352.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_352.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_353.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_353.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_353.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_354.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_354.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_354.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_355.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_355.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_355.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_356.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_356.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_356.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_357.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_357.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_357.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_358.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_358.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_358.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_359.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_359.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_359.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_360.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_360.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_360.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_361.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_361.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_361.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_362.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_362.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_362.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_363.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_363.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_363.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_364.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_364.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_364.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_365.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_365.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_365.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_366.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_366.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_366.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_367.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_367.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_367.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_368.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_368.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_368.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_369.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_369.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_369.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_370.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_370.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_370.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_371.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_371.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_371.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_372.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_372.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_372.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_373.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_373.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_373.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_374.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_374.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_374.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_375.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_375.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_375.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_376.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_376.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_376.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_377.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_377.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_377.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_378.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_378.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_378.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_379.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_379.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_379.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_380.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_380.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_380.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_381.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_381.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_381.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_382.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_382.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_382.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_383.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_383.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_383.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_384.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_384.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_384.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_385.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_385.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_385.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_386.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_386.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_386.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_387.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_387.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_387.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_388.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_388.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_388.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_389.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_389.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_389.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_390.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_390.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_390.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_391.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_391.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_391.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_392.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_392.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_392.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_393.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_393.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_393.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_394.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_394.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_394.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_395.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_395.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_395.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_396.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_396.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_396.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_397.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_397.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_397.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_398.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_398.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_398.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_399.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_399.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_399.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_400.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_400.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_400.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_401.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_401.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_401.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_402.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_402.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_402.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_403.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_403.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_403.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_404.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_404.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_404.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_405.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_405.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_405.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_406.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_406.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_406.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_407.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_407.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_407.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_408.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_408.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_408.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_409.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_409.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_409.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_410.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_410.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_410.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_411.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_411.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_411.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_412.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_412.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_412.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_413.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_413.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_413.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_414.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_414.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_414.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_415.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_415.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_415.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_416.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_416.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_416.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_417.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_417.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_417.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_418.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_418.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_418.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_419.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_419.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_419.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_420.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_420.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_420.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_421.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_421.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_421.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_422.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_422.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_422.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_423.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_423.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_423.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_424.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_424.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_424.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_425.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_425.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_425.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_426.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_426.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_426.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_427.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_427.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_427.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_428.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_428.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_428.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_429.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_429.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_429.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_430.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_430.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_430.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_431.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_431.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_431.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_432.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_432.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_432.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_433.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_433.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_433.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_434.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_434.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_434.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_435.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_435.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_435.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_436.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_436.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_436.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_437.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_437.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_437.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_438.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_438.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_438.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_439.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_439.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_439.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_440.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_440.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_440.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_441.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_441.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_441.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_442.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_442.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_442.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_443.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_443.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_443.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_444.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_444.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_444.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_445.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_445.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_445.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_446.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_446.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_446.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_447.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_447.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_447.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_448.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_448.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_448.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_449.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_449.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_449.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_450.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_450.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_450.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_451.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_451.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_451.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_452.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_452.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_452.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_453.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_453.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_453.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_454.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_454.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_454.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_455.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_455.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_455.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_456.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_456.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_456.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_457.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_457.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_457.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_458.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_458.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_458.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_459.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_459.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_459.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_460.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_460.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_460.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_461.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_461.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_461.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_462.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_462.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_462.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_463.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_463.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_463.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_464.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_464.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_464.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_465.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_465.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_465.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_466.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_466.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_466.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_467.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_467.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_467.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_468.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_468.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_468.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_469.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_469.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_469.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_470.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_470.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_470.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_471.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_471.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_471.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_472.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_472.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_472.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_473.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_473.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_473.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_474.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_474.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_474.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_475.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_475.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_475.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_476.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_476.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_476.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_477.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_477.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_477.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_478.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_478.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_478.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_479.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_479.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_479.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_480.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_480.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_480.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_481.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_481.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_481.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_482.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_482.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_482.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_483.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_483.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_483.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_484.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_484.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_484.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_485.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_485.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_485.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_486.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_486.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_486.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_487.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_487.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_487.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_488.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_488.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_488.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_489.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_489.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_489.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_490.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_490.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_490.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_491.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_491.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_491.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_492.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_492.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_492.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_493.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_493.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_493.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_494.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_494.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_494.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_495.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_495.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_495.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_496.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_496.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_496.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_497.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_497.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_497.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_498.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_498.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_498.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_499.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_499.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_499.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_500.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_500.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_500.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_501.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_501.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_501.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_502.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_502.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_502.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_503.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_503.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_503.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_504.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_504.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_504.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_505.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_505.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_505.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_506.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_506.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_506.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_507.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_507.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_507.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_508.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_508.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_508.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_509.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_509.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_509.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_510.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_510.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_510.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_511.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_511.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_511.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_512.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_512.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_512.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_513.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_513.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_513.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_514.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_514.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_514.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_515.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_515.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_515.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_516.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_516.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_516.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_517.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_517.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_517.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_518.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_518.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_518.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_519.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_519.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_519.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_520.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_520.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_520.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_521.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_521.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_521.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_522.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_522.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_522.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_523.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_523.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_523.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_524.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_524.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_524.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_525.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_525.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_525.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_526.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_526.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_526.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_527.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_527.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_527.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_528.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_528.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_528.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_529.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_529.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_529.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_530.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_530.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_530.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_531.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_531.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_531.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_532.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_532.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_532.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_533.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_533.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_533.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_534.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_534.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_534.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_535.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_535.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_535.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_536.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_536.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_536.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_537.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_537.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_537.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_538.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_538.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_538.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_539.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_539.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_539.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_540.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_540.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_540.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_541.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_541.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_541.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_542.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_542.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_542.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_543.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_543.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_543.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_544.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_544.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_544.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_545.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_545.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_545.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_546.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_546.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_546.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_547.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_547.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_547.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_548.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_548.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_548.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_549.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_549.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_549.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_550.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_550.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_550.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_551.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_551.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_551.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_552.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_552.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_552.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_553.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_553.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_553.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_554.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_554.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_554.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_555.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_555.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_555.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_556.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_556.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_556.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_557.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_557.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_557.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_558.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_558.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_558.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_559.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_559.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_559.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_560.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_560.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_560.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_561.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_561.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_561.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_562.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_562.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_562.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_563.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_563.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_563.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_564.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_564.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_564.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_565.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_565.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_565.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_566.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_566.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_566.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_567.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_567.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_567.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_568.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_568.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_568.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_569.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_569.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_569.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_570.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_570.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_570.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_571.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_571.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_571.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_572.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_572.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_572.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_573.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_573.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_573.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_574.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_574.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_574.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_575.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_575.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_575.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_576.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_576.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_576.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_577.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_577.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_577.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_578.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_578.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_578.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_579.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_579.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_579.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_580.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_580.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_580.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_581.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_581.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_581.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_582.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_582.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_582.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_583.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_583.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_583.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_584.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_584.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_584.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_585.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_585.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_585.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_586.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_586.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_586.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_587.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_587.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_587.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_588.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_588.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_588.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_589.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_589.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_589.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_590.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_590.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_590.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_591.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_591.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_591.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_592.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_592.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_592.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_593.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_593.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_593.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_594.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_594.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_594.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_595.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_595.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_595.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_596.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_596.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_596.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_597.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_597.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_597.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_598.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_598.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_598.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_599.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_599.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_599.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_600.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_600.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_600.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_601.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_601.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_601.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_602.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_602.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_602.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_603.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_603.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_603.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_604.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_604.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_604.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_605.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_605.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_605.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_606.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_606.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_606.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_607.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_607.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_607.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_608.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_608.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_608.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_609.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_609.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_609.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_610.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_610.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_610.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_611.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_611.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_611.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_612.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_612.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_612.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_613.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_613.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_613.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_614.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_614.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_614.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_615.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_615.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_615.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_616.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_616.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_616.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_617.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_617.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_617.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_618.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_618.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_618.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_619.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_619.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_619.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_620.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_620.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_620.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_621.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_621.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_621.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_622.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_622.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_622.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_623.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_623.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_623.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_624.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_624.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_624.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_625.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_625.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_625.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_626.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_626.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_626.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_627.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_627.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_627.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_628.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_628.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_628.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_629.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_629.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_629.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_630.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_630.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_630.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_631.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_631.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_631.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_632.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_632.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_632.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_633.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_633.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_633.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_634.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_634.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_634.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_635.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_635.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_635.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_636.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_636.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_636.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_637.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_637.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_637.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_638.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_638.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_638.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_639.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_639.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_639.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_640.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_640.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_640.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_641.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_641.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_641.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_642.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_642.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_642.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_643.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_643.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_643.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_644.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_644.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_644.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_645.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_645.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_645.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_646.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_646.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_646.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_647.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_647.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_647.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_648.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_648.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_648.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_649.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_649.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_649.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_650.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_650.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_650.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_651.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_651.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_651.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_652.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_652.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_652.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_653.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_653.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_653.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_654.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_654.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_654.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_655.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_655.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_655.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_656.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_656.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_656.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_657.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_657.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_657.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_658.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_658.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_658.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_659.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_659.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_659.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_660.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_660.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_660.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_661.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_661.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_661.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_662.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_662.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_662.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_663.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_663.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_663.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_664.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_664.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_664.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_665.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_665.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_665.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_666.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_666.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_666.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_667.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_667.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_667.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_668.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_668.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_668.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_669.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_669.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_669.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_670.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_670.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_670.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_671.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_671.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_671.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_672.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_672.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_672.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_673.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_673.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_673.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_674.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_674.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_674.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_675.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_675.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_675.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_676.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_676.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_676.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_677.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_677.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_677.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_678.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_678.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_678.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_679.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_679.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_679.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_680.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_680.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_680.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_681.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_681.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_681.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_682.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_682.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_682.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_683.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_683.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_683.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_684.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_684.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_684.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_685.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_685.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_685.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_686.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_686.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_686.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_687.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_687.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_687.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_688.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_688.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_688.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_689.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_689.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_689.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_690.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_690.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_690.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_691.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_691.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_691.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_692.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_692.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_692.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_693.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_693.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_693.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_694.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_694.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_694.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_695.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_695.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_695.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_696.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_696.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_696.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_697.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_697.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_697.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_698.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_698.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_698.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_699.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_699.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_699.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_700.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_700.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_700.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_701.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_701.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_701.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_702.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_702.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_702.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_703.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_703.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_703.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_704.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_704.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_704.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_705.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_705.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_705.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_706.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_706.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_706.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_707.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_707.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_707.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_708.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_708.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_708.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_709.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_709.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_709.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_710.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_710.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_710.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_711.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_711.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_711.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_712.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_712.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_712.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_713.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_713.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_713.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_714.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_714.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_714.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_715.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_715.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_715.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_716.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_716.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_716.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_717.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_717.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_717.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_718.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_718.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_718.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_719.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_719.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_719.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_720.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_720.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_720.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_721.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_721.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_721.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_722.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_722.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_722.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_723.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_723.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_723.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_724.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_724.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_724.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_725.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_725.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_725.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_726.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_726.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_726.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_727.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_727.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_727.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_728.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_728.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_728.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_729.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_729.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_729.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_730.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_730.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_730.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_731.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_731.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_731.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_732.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_732.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_732.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_733.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_733.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_733.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_734.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_734.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_734.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_735.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_735.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_735.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_736.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_736.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_736.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_737.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_737.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_737.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_738.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_738.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_738.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_739.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_739.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_739.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_740.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_740.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_740.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_741.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_741.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_741.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_742.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_742.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_742.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_743.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_743.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_743.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_744.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_744.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_744.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_745.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_745.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_745.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_746.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_746.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_746.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_747.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_747.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_747.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_748.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_748.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_748.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_749.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_749.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_749.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_750.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_750.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_750.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_751.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_751.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_751.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_752.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_752.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_752.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_753.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_753.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_753.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_754.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_754.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_754.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_755.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_755.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_755.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_756.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_756.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_756.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_757.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_757.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_757.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_758.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_758.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_758.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_759.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_759.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_759.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_760.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_760.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_760.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_761.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_761.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_761.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_762.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_762.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_762.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_763.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_763.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_763.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_764.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_764.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_764.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_765.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_765.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_765.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_766.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_766.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_766.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_767.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_767.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_767.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_768.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_768.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_768.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_769.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_769.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_769.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_770.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_770.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_770.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_771.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_771.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_771.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_772.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_772.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_772.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_773.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_773.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_773.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_774.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_774.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_774.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_775.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_775.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_775.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_776.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_776.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_776.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_777.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_777.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_777.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_778.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_778.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_778.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_779.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_779.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_779.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_780.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_780.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_780.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_781.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_781.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_781.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_782.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_782.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_782.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_783.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_783.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_783.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_784.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_784.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_784.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_785.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_785.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_785.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_786.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_786.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_786.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_787.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_787.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_787.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_788.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_788.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_788.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_789.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_789.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_789.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_790.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_790.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_790.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_791.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_791.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_791.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_792.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_792.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_792.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_793.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_793.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_793.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_794.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_794.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_794.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_795.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_795.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_795.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_796.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_796.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_796.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_797.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_797.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_797.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_798.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_798.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_798.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_799.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_799.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_799.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_800.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_800.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_800.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_801.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_801.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_801.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_802.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_802.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_802.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_803.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_803.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_803.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_804.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_804.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_804.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_805.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_805.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_805.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_806.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_806.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_806.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_807.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_807.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_807.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_808.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_808.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_808.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_809.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_809.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_809.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_810.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_810.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_810.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_811.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_811.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_811.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_812.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_812.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_812.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_813.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_813.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_813.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_814.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_814.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_814.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_815.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_815.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_815.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_816.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_816.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_816.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_817.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_817.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_817.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.Frame_818.Parent = ScreenGui.Frame_2
+ScreenGui.Frame_818.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_818.Size = UDim2.new(1, 0, 1, 0)
+
+ScreenGui.ImageLabel.Parent = ScreenGui.ScreenGui
+ScreenGui.ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.ImageLabel.BackgroundTransparency = 1.000
+ScreenGui.ImageLabel.Size = UDim2.new(1, 0, 1, 0)
+ScreenGui.ImageLabel.Image = "rbxassetid://2128064815"
+
+local Sounding = Instance.new("Sound",game.Workspace)
+Sounding.SoundId = "rbxassetid://4352752395"
+Sounding:Play()
+Sounding.Volume = 1.5
+game:GetService("StarterGui"):SetCoreGuiEnabled(Enum.CoreGuiType.All,false)
+
+print"                                     ``````............----------......````  `                      "
+print"                     ```.-://++osyyhhhhdhhdddddhhhhhhhhhhhhhhhhdddhhddddhhhhhyo:``                  "
+print"                .-:+oyhmmNNNNNmddhhyysso+//:---:::::::::::..::--.....----::+ohmNdo-                 "
+print"            .-oydmddyo+++///:::--:::::---.`    ....-----.`  .:+o+/-`         `./hNmo.               "
+print"        `-+ydNds/-/s` `-::////////+////+///::``+o+++++oo-  -///:-:::::.`        `:yNd:`             "
+print"       .smNho-`   -:` `..:://:::--------..```   `://:::::--.`-++o+/-.-//:-`       `omN+`            "
+print"      -dNy:`       ./osso+/++osso+/-`           /mo-.....``` `-/ooo:./+:..:/-`     `/mNo`           "
+print"     `dNs`       .oh+-``      ``:-`.`          .h+`             ``-::://o+..:/:`     /mNy.          "
+print"     oNd.       -s/`            .o             +/   ``.-::::/::-.``  `/+-:+:  `       :mNy.         "
+print"   `:mN/        -.    ```````    o.            .``-+sdmNmmNNMMNNmdy+:` .:  `           -dNh:`       "
+print" `-smm/          `.:oshhddddhs+:..:            ./hmmmyo/:+mMMMMMMMNNNd+. ` `        ````.sNNy-`     "
+print":yNms.``    -`./.+dNNdsssomMMMMMmy+--.``     -smmo:.`.-/hNNNNNNNMNmhhmMd-:++/:.     `:://+hNNNh/`   "
+print"NNy:.-/-``  :``` `.-/osyhddmNNNNNMMMmds-     +dNNs/shdmdys+:+//++ossssso:::..-.`.:::::-```.+yshNd+``"
+print"N+-.-:o ```````         ````..-:/MMNy-`       `:sddyo:.```  /dy+-``     `.-/oydmmdhyhmmmh/` `://dNhy"
+print"+:+ .d.oyhhdhyyyo:..``..`       `NMm:                        -ymNNdysooyhmNmdy+:...`  .omMd-    .sNM"
+print":+o ss`yyo/-..-yNMNmddmh-      ./NNo`                          .:/oyyyso+:-.` `:smmo.   -yMm.    `sd"
+print"++s.h/ `    +d``:++ooss/`   `:smNd:            oyoo+/`.:                   ./sdNNdNNd+`  :mM+     ./"
+print"m/h:oh+`   :mMs        ` `:smMNh:`            `sydmNMyoy+oo+/:-.`     `./sdNmds/`:NMNNmo-:mMo     ./"
+print"Mhoo` ::  .dMMN+`    `-/sdNMMMm/`       `-:/osssy+`oNN. ```....``.-/shmNmho:.   .hMd/-.-.+NN- ./``ym"
+print"NNy:. /h/ oNdmMmo`  /++:-..-/yNNy-      `-://osyh/:mMs    `-/+shdmNmhyms.     ./dMm:    .ym/ -y:.yNM"
+print":NMs.  ``.hM+yNmNms:``        ./hmNddm+`        ``/o//oydmNNmhs+:.```oN/ ``:odNMMm:     .+/`/o.+mMhs"
+print" -dMo`   /NNMMy/NMmmNdyo/-..``   ./oy+``..--:+oyhdNNNNNMd/-`      ./dMNsydNdhsmMd-      `+/`.+mMm+` "
+print" `+MN:   +NMMm.:mm-`-+NmhddddddhhhhhhhdhhmNmhhyso+::--yMy.    .:ohmMMMMNh/-./dNh.         `+dMmo.   "
+print"  /NM+   +MMMo.-ds`  /Ms````..--dN/:-....mN+          :Nm/:+hmNNMMNmymN+` .sNm+`         .sNNo.     "
+print"  -mM+   +NMMNNNMNh+-hNo..``````my````` .mN+ ```..:/+syNMNMMMNmho/```oy.`/mNy-          -hMh-       "
+print"  -dMo`  /mMMMMMMMMMNMMNNmmddhhdNmhhhhhhhNNdyhdmNNNMMMNmNNho/-``  `  -dddNh:`          -dNy.        "
+print"  -dMo   .hMNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmhyo:-.oN+`        -omNh:`           /mNy.         "
+print"  -dM+    oNmoNMmhNMMNNMMMMMMMMMMMMMMNNNmdymMo:.```     :dN:   ``:smNdo-            .sNNo`          "
+print"  :mM:    .hMhoNh-+Nm/:sNMMyooo+hMm+::-.```oM:          `sNm../ymNms/`            `/dMh:`           "
+print"  :NM:     :dNmms` :md:`-dMs`   :MN+       +N+`         `/mMmmmho:.` ``    ``   -odNd+`             "
+print"  /Mm-      `/hmmhdhdMms--mNy.   mMh` ` ```/mo`-:/+oyydddddyo-.```:/+-` .:/:`./ymNd/`               "
+print"  +Mh.       ``.:/+oyyhddydNmdso+dMmysyyyhhdmdhddhhyso+/-.``.-//:----:-----/ymNdo-`                 "
+print"  +Ms`  ``   `+/`   ````..---:://+/++++///::--.`````` `...//+/:-`-::-.-/ohmmho:.                    "
+print"  +M+   :s-`  `/s+.`      -::////++++/////::`    `-:++/-..::++:.`.:+sdmmhs:.`                       "
+print"  /M/   `:yo-   `:+:-::::///////////::/+///::-..:oo+//. `----:+shmmdyo:.`                           "
+print"  +Mo`    ./s+-......----:::::::::::---.`-///+++//:.``  .:+ymmmho/-``                               "
+print"  /Nm:      `.--://+oooooooooo+///::-..  `.````     `-+ydmdh+:.`                                    "
+print"  `oNN+`                                   ```.-:/ohdmdy+-.`                                        "
+print"   `/dNh+-`                         `..:/+oyhddddhso:.`                                             "
+print"     ./hmmhs+-.`          ``..-:/osydmmmdhyo+/:..`                                                  "
+print"      `.:shdddhhhyyyyyhhhhddmddhhyo/:-.``                                                          "
+print"            `.--::///+///::--..``                                                                   "
+
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:Destroy()
